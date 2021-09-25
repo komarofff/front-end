@@ -196,6 +196,12 @@ export default {
               description: 'Vue.js, vuex, vue-router'
             },
             {
+              link: 'https://komarofff.github.io/front-end/',
+              linkText: 'Tabs',
+              source: 'https://github.com/komarofff/front-end',
+              description: 'The code of this page on Vue.js :)'
+            },
+            {
               link: 'https://komarofff.github.io/todoList/index.html',
               linkText: 'TODO list',
               source: 'https://github.com/komarofff/todoList',
