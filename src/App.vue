@@ -16,7 +16,7 @@
       <ol>
         <li v-for="item in frontend">
           <a target="_blank" :href="item.link">{{ item.linkText }}</a> <span v-if="item.description.length>0">- {{ item.description }}</span>
-           <a class="source-code" v-if="item.source.length>0 " target="_blank" :href="item.source"> → source code </a>
+          <span v-if="item.source.length>0 "> → <a class="source-code"  target="_blank" :href="item.source">  source code </a></span>
         </li>
       </ol>
       </div>
@@ -25,7 +25,7 @@
       <ol>
         <li v-for="item in vueJS">
           <a target="_blank" :href="item.link">{{ item.linkText }}</a> <span v-if="item.description.length>0">- {{ item.description }}</span>
-          <a  class="source-code" v-if="item.source.length>0 " target="_blank" :href="item.source"> → source code </a>
+          <span v-if="item.source.length>0 "> → <a class="source-code"  target="_blank" :href="item.source">  source code </a></span>
         </li>
       </ol>
       </div>
@@ -34,7 +34,7 @@
       <ol>
         <li v-for="item in java">
           <a target="_blank" :href="item.link">{{ item.linkText }}</a> <span v-if="item.description.length>0">- {{ item.description }}</span>
-          <a  class="source-code" v-if="item.source.length>0 " target="_blank" :href="item.source"> → source code </a>
+          <span v-if="item.source.length>0 "> → <a class="source-code"  target="_blank" :href="item.source">  source code </a></span>
         </li>
       </ol>
       </div>
@@ -177,7 +177,9 @@ a:hover{
   text-decoration: none;
   color: #8c0505;
   font-weight: bold;
-
+}
+.source-code:hover{
+  border-bottom:2px solid #8c0505;
 }
 button{
   background: #454a56;
