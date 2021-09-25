@@ -190,6 +190,29 @@ export default {
         {
           title: 'Vue.js', visibility: false, data: [
             {
+              link: 'https://komaroff.biz/vue/babka/',
+              linkText: 'Jam to jars ',
+              source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
+              description: 'Vue.js, vuex, vue-router'
+            },
+            {
+              link: 'https://komarofff.github.io/todoList/index.html',
+              linkText: 'TODO list',
+              source: 'https://github.com/komarofff/todoList',
+              description: ''
+            },
+            {
+              link: 'https://komarofff.github.io/dealList/',
+              linkText: 'Deal list',
+              source: 'https://github.com/komarofff/dealList',
+              description: ''
+            },
+
+          ]
+        },
+        {
+          title: 'JavaScript', visibility: false, data: [
+            {
               link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
               linkText: 'Carousel1 ',
               source: 'https://github.com/komarofff/page1',
@@ -230,29 +253,6 @@ export default {
               linkText: 'drag&drop',
               source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
               description: 'drag&drop'
-            },
-
-          ]
-        },
-        {
-          title: 'JavaScript', visibility: false, data: [
-            {
-              link: 'https://komaroff.biz/vue/babka/',
-              linkText: 'Jam to jars ',
-              source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
-              description: 'Vue.js, vuex, vue-router'
-            },
-            {
-              link: 'https://komarofff.github.io/todoList/index.html',
-              linkText: 'TODO list',
-              source: 'https://github.com/komarofff/todoList',
-              description: ''
-            },
-            {
-              link: 'https://komarofff.github.io/dealList/',
-              linkText: 'Deal list',
-              source: 'https://github.com/komarofff/dealList',
-              description: ''
             },
 
           ]
