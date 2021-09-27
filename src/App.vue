@@ -40,7 +40,7 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
-              link: 'https://komarofff.github.io/Calendar/Calendar_week.html',
+              link: 'https://komarofff.github.io/Calendar/Calendar_week-new.html',
               linkText: 'Admin panel (calendar). in progress...',
               source: 'https://github.com/komarofff/Calendar',
               description: ' TailWind + JavaScript + drag&&drop popup (desktop version)'
