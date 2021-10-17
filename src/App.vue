@@ -40,8 +40,13 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
+              link: '#',
+              linkText: 'Wordpress site for for a real estate company (...in progress | link will be later) ',
+              source: 'https://github.com/komarofff/paragon-wordpress5',
+              description: 'Wordpress (new types of pages, new meta data), Bootstrap, PHP, Ajax, Google map API'
+            },{
               link: 'https://komarofff.github.io/Calendar/Calendar_week-new.html',
-              linkText: 'Admin panel (calendar). in progress...',
+              linkText: 'Admin panel (calendar). ',
               source: 'https://github.com/komarofff/Calendar',
               description: ' TailWind + JavaScript + drag&&drop popup (desktop version)'
             },
@@ -196,10 +201,10 @@ export default {
               description: 'Vue.js, vuex, vue-router'
             },
             {
-              link: 'https://komarofff.github.io/front-end/',
+              link: '#',
               linkText: 'Tabs',
               source: 'https://github.com/komarofff/front-end',
-              description: 'The code of this page on Vue.js :)'
+              description: 'These tabs were made on Vue.js :)'
             },
             {
               link: 'https://komarofff.github.io/todoList/index.html',
@@ -227,7 +232,7 @@ export default {
             {
               link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
               linkText: 'Carousel2 ',
-              source: 'https://github.com/komarofff/karusel/karusel-po-krugu.html',
+              source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
               description: 'JS left-right + drag&drop in a circle'
             },
             {
@@ -239,7 +244,7 @@ export default {
             {
               link: 'https://komarofff.github.io/karusel/svg-animation.html',
               linkText: 'SVG animation',
-              source: 'https://github.com/komarofff/karusel/svg-animation.html',
+              source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
               description: 'svg-animation ( fill circle)'
             },
             {
