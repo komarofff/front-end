@@ -41,7 +41,13 @@ export default {
           title: 'Frontend links', visibility: true, data: [
             {
               link: '#',
-              linkText: 'Wordpress site for a real estate company (...in progress | link will be later) ',
+              linkText: 'Web site for a real estate company (in progress) ',
+              source: 'https://github.com/komarofff/Yasuhary',
+              description: 'Laravel, TailWind CSS, PHP, Axios, Google map API, Vue.js'
+            },
+            {
+              link: '#',
+              linkText: 'Wordpress site for a real estate company ( link will be later) ',
               source: 'https://github.com/komarofff/paragon-wordpress5',
               description: 'Wordpress (new types of pages, new meta data), Bootstrap, PHP, Ajax, Google map API'
             },{
