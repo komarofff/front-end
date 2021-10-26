@@ -49,7 +49,7 @@ export default {
               link: '#',
               linkText: 'Wordpress site for a real estate company ( link will be later) ',
               source: 'https://github.com/komarofff/paragon-wordpress5',
-              description: 'Wordpress (new types of pages, new meta data), Bootstrap, PHP, Ajax, Google map API'
+              description: 'Wordpress (new types of pages, new meta data), Elementor, Bootstrap, PHP, Ajax, Google map API'
             },{
               link: 'https://komarofff.github.io/Calendar/Calendar_week-new.html',
               linkText: 'Admin panel (calendar). ',
