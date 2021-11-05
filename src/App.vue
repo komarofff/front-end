@@ -40,7 +40,7 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
-              link: '#',
+              link: 'https://komarofff.github.io/Yasuhary/',
               linkText: 'Web site for a real estate company (in progress) ',
               source: 'https://github.com/komarofff/Yasuhary',
               description: 'Laravel, TailWind CSS, PHP, Axios, Google map API, Vue.js'
