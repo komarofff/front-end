@@ -43,7 +43,7 @@ export default {
               link: 'https://komarofff.github.io/Yasuhary/',
               linkText: 'Web site for a real estate company (in progress) ',
               source: 'https://github.com/komarofff/Yasuhary',
-              description: 'Laravel, TailWind CSS, PHP, Axios, Google map API, Vue.js'
+              description: 'HTML, TailWind CSS, JavaScript, Google map API'
             },
             {
               link: '#',
