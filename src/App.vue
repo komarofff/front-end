@@ -300,7 +300,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
+  position: relative;
+
 
 }
 
@@ -316,7 +317,7 @@ ol {
 }
 
 .container {
-  width: 98vw;
+  width: 96vw;
   margin: 0 auto;
   background: #454a56;
   overflow: hidden;
@@ -324,13 +325,13 @@ ol {
 
 .card {
   position: relative;
-  max-width: 1000px;
+  max-width: 70vw;
   background: #fff;
   border-radius: 20px;
   padding: 20px;
-  margin: 0 auto;
-  height: 80vh;
+  height: 90vh;
   overflow: hidden;
+  margin: 0 auto;
 
 
 }
@@ -400,6 +401,9 @@ button:hover {
   .flex {
     flex-wrap: wrap;
     justify-content: flex-start;
+  }
+  .card{
+    max-width: 98vw;
   }
 }
 
