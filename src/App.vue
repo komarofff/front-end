@@ -40,8 +40,14 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
+              link: '#',
+              linkText: 'Landing for a real estate company (in progress) ',
+              source: '#',
+              description: 'Wordpress, Elementor, HTML, Bootstrap, JavaScript, Google map API'
+            },
+            {
               link: 'https://komarofff.github.io/Yasuhary/',
-              linkText: 'Web site for a real estate company (in progress) ',
+              linkText: 'Web site for a real estate company  ',
               source: 'https://github.com/komarofff/Yasuhary',
               description: 'HTML, TailWind CSS, JavaScript, Google map API'
             },
