@@ -330,15 +330,19 @@ ol {
 }
 
 .card {
-  position: relative;
-  max-width: 70vw;
+  position: fixed;
+  width: 80vw;
   background: #fff;
   border-radius: 20px;
   padding: 20px;
   height: 90vh;
-  overflow: hidden;
-  margin: 0 auto;
-
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
 }
 
