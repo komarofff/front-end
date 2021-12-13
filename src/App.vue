@@ -204,82 +204,82 @@ export default {
 
           ]
         },
-        // {
-        //   title: 'Vue.js', visibility: false, data: [
-        //     {
-        //       link: 'https://komaroff.biz/vue/babka/',
-        //       linkText: 'Jam to jars ',
-        //       source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
-        //       description: 'Vue.js, vuex, vue-router'
-        //     },
-        //     {
-        //       link: '#',
-        //       linkText: 'Tabs',
-        //       source: 'https://github.com/komarofff/front-end',
-        //       description: 'These tabs were made on Vue.js :)'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/todoList/index.html',
-        //       linkText: 'TODO list',
-        //       source: 'https://github.com/komarofff/todoList',
-        //       description: ''
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/dealList/',
-        //       linkText: 'Deal list',
-        //       source: 'https://github.com/komarofff/dealList',
-        //       description: ''
-        //     },
-        //
-        //   ]
-        // },
-        // {
-        //   title: 'JavaScript', visibility: false, data: [
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
-        //       linkText: 'Carousel1 ',
-        //       source: 'https://github.com/komarofff/page1',
-        //       description: 'JS left-right + drag&drop'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
-        //       linkText: 'Carousel2 ',
-        //       source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
-        //       description: 'JS left-right + drag&drop in a circle'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/slider-without-stop.html',
-        //       linkText: 'Slider',
-        //       source: 'https://github.com/komarofff/karusel/blob/main/slider-without-stop.html',
-        //       description: 'slider-without-stop( left-to-right)'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/svg-animation.html',
-        //       linkText: 'SVG animation',
-        //       source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
-        //       description: 'svg-animation ( fill circle)'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/marafon-JS/slider-cars/index.html',
-        //       linkText: 'Slider-flex',
-        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-cars',
-        //       description: 'Slider based on flex grow and flex shrink +JS'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/marafon-JS/slider-up-down/',
-        //       linkText: 'Slider up-to-down',
-        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-up-down',
-        //       description: 'Slider up-down . 1 page, screen size'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/marafon-JS/drag-and-drop/index.html',
-        //       linkText: 'drag&drop',
-        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
-        //       description: 'drag&drop'
-        //     },
-        //
-        //   ]
-        // }
+        {
+          title: 'Vue.js', visibility: false, data: [
+            {
+              link: 'https://komaroff.biz/vue/babka/',
+              linkText: 'Jam to jars ',
+              source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
+              description: 'Vue.js, vuex, vue-router'
+            },
+            {
+              link: '#',
+              linkText: 'Tabs',
+              source: 'https://github.com/komarofff/front-end',
+              description: 'These tabs were made on Vue.js :)'
+            },
+            {
+              link: 'https://komarofff.github.io/todoList/index.html',
+              linkText: 'TODO list',
+              source: 'https://github.com/komarofff/todoList',
+              description: ''
+            },
+            {
+              link: 'https://komarofff.github.io/dealList/',
+              linkText: 'Deal list',
+              source: 'https://github.com/komarofff/dealList',
+              description: ''
+            },
+
+          ]
+        },
+        {
+          title: 'JavaScript', visibility: false, data: [
+            {
+              link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
+              linkText: 'Carousel1 ',
+              source: 'https://github.com/komarofff/page1',
+              description: 'JS left-right + drag&drop'
+            },
+            {
+              link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
+              linkText: 'Carousel2 ',
+              source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
+              description: 'JS left-right + drag&drop in a circle'
+            },
+            {
+              link: 'https://komarofff.github.io/karusel/slider-without-stop.html',
+              linkText: 'Slider',
+              source: 'https://github.com/komarofff/karusel/blob/main/slider-without-stop.html',
+              description: 'slider-without-stop( left-to-right)'
+            },
+            {
+              link: 'https://komarofff.github.io/karusel/svg-animation.html',
+              linkText: 'SVG animation',
+              source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
+              description: 'svg-animation ( fill circle)'
+            },
+            {
+              link: 'https://komarofff.github.io/marafon-JS/slider-cars/index.html',
+              linkText: 'Slider-flex',
+              source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-cars',
+              description: 'Slider based on flex grow and flex shrink +JS'
+            },
+            {
+              link: 'https://komarofff.github.io/marafon-JS/slider-up-down/',
+              linkText: 'Slider up-to-down',
+              source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-up-down',
+              description: 'Slider up-down . 1 page, screen size'
+            },
+            {
+              link: 'https://komarofff.github.io/marafon-JS/drag-and-drop/index.html',
+              linkText: 'drag&drop',
+              source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
+              description: 'drag&drop'
+            },
+
+          ]
+        }
       ]
     }
   },
