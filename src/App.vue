@@ -40,8 +40,8 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
-              link: '#',
-              linkText: 'Landing for a real estate company (in progress) ',
+              link: 'https://www.blackshiprealty.com/',
+              linkText: 'Landing for a real estate company  ',
               source: '#',
               description: 'Wordpress, Elementor, HTML, Bootstrap, JavaScript, Google map API'
             },
