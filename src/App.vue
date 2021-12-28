@@ -40,6 +40,12 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
+              link: 'https://vasterra.com/car-industry',
+              linkText: 'Landing page  ',
+              source: '#',
+              description: 'Laravel + JavaScript + SlickSlider + Vue.js'
+            },
+            {
               link: 'https://www.blackshiprealty.com/',
               linkText: 'Landing for a real estate company  ',
               source: '#',
