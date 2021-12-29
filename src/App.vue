@@ -58,8 +58,8 @@ export default {
               description: 'HTML, TailWind CSS, JavaScript, Google map API'
             },
             {
-              link: '#',
-              linkText: 'Wordpress site for a real estate company ( link will be later) ',
+              link: 'https://paragonrea.com',
+              linkText: 'Wordpress site for a real estate company  ',
               source: 'https://github.com/komarofff/paragon-wordpress5',
               description: 'Wordpress (new types of pages, new meta data), Elementor, Bootstrap, PHP, Ajax, Google map API'
             },{
