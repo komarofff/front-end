@@ -5,7 +5,7 @@
       <div class="flex">
         <div>
           <template v-for="(item,index) in tabs">
-            <button @click="changeTabs(index)" >{{ item.title }}</button>
+            <button @click="changeTabs(index)">{{ item.title }}</button>
           </template>
         </div>
         <p>Anatoliy Komarov - frontend developer (admin@komaroff.biz)</p>
@@ -62,7 +62,7 @@ export default {
               linkText: 'Wordpress site for a real estate company  ',
               source: 'https://github.com/komarofff/paragon-wordpress5',
               description: 'Wordpress (new types of pages, new meta data), Elementor, Bootstrap, PHP, Ajax, Google map API'
-            },{
+            }, {
               link: 'https://komarofff.github.io/Calendar/Calendar_week-new.html',
               linkText: 'Admin panel (calendar). ',
               source: 'https://github.com/komarofff/Calendar',
@@ -242,6 +242,12 @@ export default {
         {
           title: 'JavaScript', visibility: false, data: [
             {
+              link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
+              linkText: 'ElementPosition + scroll direction + hash . JavaScript',
+              source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
+              description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
+            },
+            {
               link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
               linkText: 'Carousel1 ',
               source: 'https://github.com/komarofff/page1',
@@ -291,7 +297,7 @@ export default {
   },
   methods: {
     changeTabs(idx) {
-      this.tabs.forEach((val)=>{
+      this.tabs.forEach((val) => {
         val.visibility = false
       })
       this.tabs[idx].visibility = true
@@ -418,7 +424,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-  .card{
+
+  .card {
     max-width: 98vw;
   }
 }
