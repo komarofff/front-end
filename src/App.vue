@@ -213,9 +213,9 @@ export default {
         {
           title: 'Vue.js', visibility: false, data: [
             {
-              link: 'https://komarofff.github.io/PhotosFromMars/index.html',
+              link: 'https://komarofff.github.io/Mars-lightgallery/',
               linkText: 'Get photos from Mars (NASA) ',
-              source: 'https://github.com/komarofff/PhotosFromMars/',
+              source: 'https://github.com/komarofff/Mars-lightgallery/',
               description: 'Vue.js, axios, NASA api '
             },{
               link: 'https://komaroff.biz/vue/babka/',
