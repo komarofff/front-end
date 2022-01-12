@@ -253,6 +253,12 @@ export default {
               description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
             },
             {
+              link: 'https://komarofff.github.io/JavaScript/game-1/',
+              linkText: 'Game. Try to catch more squares :)',
+              source: 'https://github.com/komarofff/JavaScript/tree/main/game-1',
+              description: 'JavaScript game'
+            },
+            {
               link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
               linkText: 'Carousel1 ',
               source: 'https://github.com/komarofff/page1',
