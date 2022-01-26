@@ -42,13 +42,13 @@ export default {
             {
               link: 'https://vasterra.com/car-industry',
               linkText: 'Landing page  ',
-              source: '#',
+              source: '',
               description: 'Laravel + JavaScript + SlickSlider + Vue.js'
             },
             {
               link: 'https://www.blackshiprealty.com/',
               linkText: 'Landing for a real estate company  ',
-              source: '#',
+              source: 'https://github.com/komarofff/blackship',
               description: 'Wordpress, Elementor, HTML, Bootstrap, JavaScript, Google map API'
             },
             {
