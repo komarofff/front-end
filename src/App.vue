@@ -218,6 +218,7 @@ export default {
         },
         {
           title: 'Vue.js', visibility: false, data: [
+
             {
               link: 'https://komarofff.github.io/Mars-lightgallery/',
               linkText: 'Get photos from Mars (NASA) ',
@@ -228,6 +229,12 @@ export default {
               linkText: 'Jam to jars ',
               source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
               description: 'Vue.js, vuex, vue-router'
+            },
+            {
+              link: 'https://komarofff.github.io/test3/',
+              linkText: 'Workers list (filter) ',
+              source: 'https://github.com/komarofff/test3',
+              description: 'Vue.js'
             },
             {
               link: '#',
