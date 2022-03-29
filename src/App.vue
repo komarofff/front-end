@@ -230,12 +230,12 @@ export default {
               source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
               description: 'Vue.js, vuex, vue-router'
             },
-            {
-              link: 'https://komarofff.github.io/test3/',
-              linkText: 'Workers list (filter) ',
-              source: 'https://github.com/komarofff/test3',
-              description: 'Vue.js'
-            },
+            // {
+            //   link: 'https://komarofff.github.io/test3/',
+            //   linkText: 'Workers list (filter) ',
+            //   source: 'https://github.com/komarofff/test3',
+            //   description: 'Vue.js'
+            // },
             {
               link: '#',
               linkText: 'Tabs',
