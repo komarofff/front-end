@@ -40,6 +40,12 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
+              link: 'https://komarofff.github.io/admin-panel/',
+              linkText: 'Admin panel   ',
+              source: 'https://github.com/komarofff/admin-panel',
+              description: 'Bootstrap + JavaScript + HTML + SCSS'
+            },
+            {
               link: 'https://vasterra.com/marangoni',
               linkText: 'Landing page   ',
               source: '',
