@@ -40,6 +40,24 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
+              link: 'https://megapolisre.by/',
+              linkText: 'Woocommerce web site   ',
+              source: '',
+              description: 'Wordpress + Woocommerce + Bootstrap '
+            },
+            {
+              link: 'https://komaroff.biz/front-end/hp67-webarray/dist/',
+              linkText: 'Landing page  ',
+              source: '',
+              description: 'Bootstrap + JavaScript + HTML + SCSS'
+            },
+            {
+              link: 'https://komaroff.biz/front-end/0-webarray/dist/',
+              linkText: 'Admin panel   ',
+              source: '',
+              description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
+            },
+            {
               link: 'https://komarofff.github.io/admin-panel/',
               linkText: 'Admin panel   ',
               source: 'https://github.com/komarofff/admin-panel',
