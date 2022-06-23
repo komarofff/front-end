@@ -284,6 +284,12 @@ export default {
         {
           title: 'JavaScript', visibility: false, data: [
             {
+              link: 'https://komaroff.biz/front-end/0-webarray/dist/',
+              linkText: 'Admin panel   ',
+              source: '',
+              description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
+            },
+            {
               link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
               linkText: 'ElementPosition + scroll direction + hash . JavaScript',
               source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
