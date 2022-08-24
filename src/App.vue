@@ -40,10 +40,15 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
-              link: 'https://komaroff.biz/front-end/test-poland/dist/',
-              linkText: 'Landing page ',
+              link: 'https://komaroff.biz/front-end/anstel/',
+              linkText: 'Internet shop ',
               source: '',
-              description: 'HTML5, CSS3, JavaScript'
+              description: 'HTML5, SCSS, JavaScript, LightGallery, Swiper,GULP'
+            }, {
+              link: 'https://komaroff.biz/front-end/test-poland/dist/',
+              linkText: 'Landing page with gallery',
+              source: '',
+              description: 'HTML5, SCSS, JavaScript,GULP'
             },
             {
               link: 'https://megapolisre.by/',
