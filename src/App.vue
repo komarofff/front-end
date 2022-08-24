@@ -40,6 +40,12 @@ export default {
         {
           title: 'Frontend links', visibility: true, data: [
             {
+              link: 'https://komaroff.biz/front-end/test-poland/dist/',
+              linkText: 'Landing page ',
+              source: '',
+              description: 'HTML5, CSS3, JavaScript'
+            },
+            {
               link: 'https://megapolisre.by/',
               linkText: 'Woocommerce web site   ',
               source: '',
