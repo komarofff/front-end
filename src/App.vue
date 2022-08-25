@@ -43,7 +43,7 @@ export default {
               link: 'https://komaroff.biz/front-end/anstel/',
               linkText: 'Internet shop ',
               source: '',
-              description: 'HTML5, SCSS, JavaScript, LightGallery, Swiper,GULP'
+              description: 'HTML5, TailWind CSS, JavaScript, LightGallery, Swiper,GULP'
             }, {
               link: 'https://komaroff.biz/front-end/test-poland/dist/',
               linkText: 'Landing page with gallery',
