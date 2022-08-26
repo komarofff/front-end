@@ -272,6 +272,12 @@ export default {
               description: 'Vue.js'
             },
             {
+              link: 'https://komarofff.github.io/currency-test/',
+              linkText: 'Getting currency rate + filter  (Api NBRB )',
+              source: 'https://github.com/komarofff/currency-test',
+              description: 'Vue.js'
+            },
+            {
               link: '#',
               linkText: 'Tabs',
               source: 'https://github.com/komarofff/front-end',
