@@ -57,6 +57,12 @@ export default {
               description: 'Wordpress + Woocommerce + Bootstrap '
             },
             {
+              link: 'https://goodwheels.by/',
+              linkText: 'Wordpress landing page.',
+              source: '',
+              description: 'Wordpress +  Bootstrap + JavaScript'
+            },
+            {
               link: 'https://komaroff.biz/front-end/hp67-webarray/dist/',
               linkText: 'Landing page  ',
               source: '',
