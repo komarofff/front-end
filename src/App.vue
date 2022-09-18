@@ -3,17 +3,17 @@
 
     <div class="card">
       <div class="flex">
-        <div>
+        <div class="grid-4">
           <template v-for="(item,index) in tabs">
-            <button @click="changeTabs(index)">{{ item.title }}</button>
+            <button @click="changeTabs(index)" :class="{active: item.visibility }">{{ item.title  }} </button>
           </template>
         </div>
-        <p>Anatoliy Komarov - frontend developer (admin@komaroff.biz)</p>
+<!--        <p>Anatoliy Komarov </p>-->
       </div>
       <hr>
       <div class="scroll">
         <template v-for="tab in tabs">
-          <div v-if="tab.visibility">
+          <div v-if="tab.visibility && tab.title !== 'About me :)'">
             <h2>{{ tab.title }}</h2>
             <ol>
               <li v-for="item in tab.data">
@@ -23,7 +23,115 @@
               </li>
             </ol>
           </div>
+          <div v-if="tab.visibility && tab.title === 'About me :)'">
+            <div class="flex-row items-center flex-between">
+              <h1 class="mb-0">Anatoliy Komarov</h1>
+              <h2 class="mb-0">Full-stack developer</h2>
+            </div>
+<!--            <h3 class="mb-0">About me</h3>-->
+            <hr>
+            some text is here
+            <hr>
+            <h3 class="mb-0">SKILLS</h3>
+            <ul class="flex-row">
+              <li>HTML5</li>
+              <li>CSS3 GRID + FLEX</li>
+              <li>Bootstrap</li>
+              <li>TailWind</li>
+              <li>SCSS</li>
+              <li>GULP</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>MYSQL</li>
+              <li>Laravel</li>
+              <li>Wordpress</li>
+              <li>Vue.js</li>
+              <li>Git</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+            </ul>
+            <hr>
+
+            <h3 class="mb-0">CONTACTS</h3>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:admin@komaroff.biz">admin@komaroff.biz</a></li>
+              <li><strong>Tel.Viber:</strong> <a href="tel:+375(29) 709-60-78"> +375(29) 709-60-78</a></li>
+              <li><strong>Telegram:</strong> <a target="_blank"
+                                                href="https://t.me/komarov_anatoliy">@komarov_anatoliy</a></li>
+              <li><strong>Linkedin:</strong><a target="_blank" href="https://www.linkedin.com/in/anatoliy-komarov/">
+                https://www.linkedin.com/in/anatoliy-komarov/</a></li>
+            </ul>
+            <hr>
+
+            <h3 class="mb-0">EXPERIENCE</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>FULL-STACK DEVELOPER • VASTERRA (VASTERRA. COM) • 2021 –JUNE 2022</strong></p>
+                  <p>
+                    Web site development. HTML5, JavaScript, SCSS, Gulp, CSS3 , Bootstrap5, TailWind, PHP, Wordpress, Laravel , Vue.js,  Webpack, MYSQL, jQuery
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>FRONT-END DEVELOPER • PO SYSTEMS GRUPP LTD. (1c-web.com) • 2020 — 2021</strong>
+                  </p>
+                <p>
+                Web site development. HTML5, JavaScript, SCSS,  CSS3 (GRID+FLEX), Bootstrap5, TailWind, PHP, Wordpress
+              </p>
+              </li>
+            </ul>
+
+            <hr>
+
+            <h3 class="mb-0">EDUCATION</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>COURSES • 2021 • BELHARD ACADEMY</strong>
+                  </p>
+                <p>
+                  Modern front-end with Vue.js
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>COURSES • 2017 • MYFREEDOM</strong>
+                </p>
+                <p>
+                  Full-stack developer. PHP, MYSQL, Laravel
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>COURSES • 2017 • MYFREEDOM</strong>
+                </p>
+                <p>
+                  Front-end developer.  HTML, CSS, JavaScript, SASS,GULP
+                </p>
+              </li>
+            </ul>
+
+            <hr>
+            <h3 class="mb-0"> LANGUAGES</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>ENGLISH</strong> – B1
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>POLISH</strong> - C1
+                </p>
+              </li>
+            </ul>
+
+
+          </div>
         </template>
+
+
       </div>
     </div>
   </div>
@@ -38,7 +146,19 @@ export default {
     return {
       tabs: [
         {
-          title: 'Frontend links', visibility: true, data: [
+          title: 'About me :)', visibility: true, data: [
+            {
+              link: 'About me',
+              linkText: '',
+              source: '',
+              description: '',
+
+            },
+
+          ]
+        },
+        {
+          title: 'Finished works', visibility: false, data: [
             {
               link: 'https://komaroff.biz/front-end/anstel/',
               linkText: 'Internet shop ',
@@ -265,7 +385,7 @@ export default {
               linkText: 'Get photos from Mars (NASA) ',
               source: 'https://github.com/komarofff/Mars-lightgallery/',
               description: 'Vue.js, axios, NASA api '
-            },{
+            }, {
               link: 'https://komaroff.biz/vue/babka/',
               linkText: 'Jam to jars ',
               source: 'https://github.com/komarofff/Vue.js/tree/main/babka',
@@ -396,7 +516,45 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   position: relative;
+  word-wrap: break-word;
 
+
+}
+
+.grid-4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+ul{
+  padding-left:20px;
+}
+.flex-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+ul.flex-row {
+  /*padding-left: 10px;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flex-row > li {
+  margin-right: 40px;
+  font-weight: bold;
 
 }
 
@@ -491,11 +649,14 @@ button {
 }
 
 button:hover {
-  background: #fff;
+  background: #f5f2f2;
   color: #454a56;
   border-right: 1px solid #454a56;
 }
-
+.active{
+  background: #fff;
+  color: #454a56;
+}
 @media (max-width: 850px) {
   .flex {
     flex-wrap: wrap;
@@ -506,14 +667,26 @@ button:hover {
     max-width: 98vw;
   }
 }
-
+@media(max-width:768px){
+  .grid-4{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  button{
+    font-size: 18px;
+    border: 1px solid #454a56;
+  }
+}
 @media (max-width: 400px) {
-  button {
-    font-size: 13px;
+  .grid-4{
+    grid-template-columns: 1fr;
   }
 
   .card {
     padding: 10px;
   }
 }
+
 </style>
