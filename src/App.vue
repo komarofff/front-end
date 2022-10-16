@@ -174,6 +174,11 @@ export default {
         {
           title: 'Portfolio links', visibility: false, data: [
             {
+              link: 'https://komarofff.github.io/bootstrap-admin-panel/',
+              linkText: 'Admin panel ',
+              source: '',
+              description: 'Bootstrap, JavaScript'
+            },{
               link: 'https://komaroff.biz/front-end/anstel/',
               linkText: 'Internet shop ',
               source: '',
