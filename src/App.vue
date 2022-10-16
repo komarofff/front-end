@@ -5,10 +5,10 @@
       <div class="flex">
         <div class="grid-4">
           <template v-for="(item,index) in tabs">
-            <button @click="changeTabs(index)" :class="{active: item.visibility }">{{ item.title  }} </button>
+            <button @click="changeTabs(index)" :class="{active: item.visibility }">{{ item.title }}</button>
           </template>
         </div>
-<!--        <p>Anatoliy Komarov </p>-->
+        <!--        <p>Anatoliy Komarov </p>-->
       </div>
       <hr>
       <div class="scroll">
@@ -25,17 +25,20 @@
           </div>
           <div v-if="tab.visibility && tab.title === 'About me :)'">
             <div class="flex-row items-center flex-between">
-              <h1 class="mb-0">Anatoliy Komarov</h1>
-              <h2 class="mb-0">Full-stack developer</h2>
+              <h1 class="mb-0 mt-0">Anatoliy Komarov</h1>
+              <h2 class="mb-0 mt-0">Full-stack developer</h2>
             </div>
-<!--            <h3 class="mb-0">About me</h3>-->
+            <!--            <h3 class="mb-0">About me</h3>-->
             <hr>
-            some text is here
+            <p>I'm an enthusiastic and detail-oriented developer seeking a position in a
+              company to use my skills in coding, troubleshooting complex problems, and assisting in the timely
+              completion of projects.</p>
+            <p>My hobby become my work :)</p>
             <hr>
             <h3 class="mb-0">SKILLS</h3>
             <ul class="flex-row">
               <li>HTML5</li>
-              <li>CSS3 GRID + FLEX</li>
+              <li>CSS3</li>
               <li>Bootstrap</li>
               <li>TailWind</li>
               <li>SCSS</li>
@@ -67,19 +70,21 @@
             <ul>
               <li>
                 <p>
-                  <strong>FULL-STACK DEVELOPER • VASTERRA (VASTERRA. COM) • 2021 –JUNE 2022</strong></p>
-                  <p>
-                    Web site development. HTML5, JavaScript, SCSS, Gulp, CSS3 , Bootstrap5, TailWind, PHP, Wordpress, Laravel , Vue.js,  Webpack, MYSQL, jQuery
+                  <strong>FRONT-END DEVELOPER • PO SYSTEMS GROUP LTD. (1c-web.com) • JUNE 2022</strong>
+                </p>
+                <p>
+                  Web site development. HTML5, JavaScript, SCSS, CSS3 , Bootstrap5, TailWind, PHP, Laravel, Wordpress
                 </p>
               </li>
               <li>
                 <p>
-                  <strong>FRONT-END DEVELOPER • PO SYSTEMS GRUPP LTD. (1c-web.com) • 2020 — 2021</strong>
-                  </p>
+                  <strong>FULL-STACK DEVELOPER • VASTERRA (VASTERRA. COM) • 2021 – JUNE 2022</strong></p>
                 <p>
-                Web site development. HTML5, JavaScript, SCSS,  CSS3 (GRID+FLEX), Bootstrap5, TailWind, PHP, Wordpress
-              </p>
+                  Web site development. HTML5, JavaScript, SCSS, Gulp, CSS3 , Bootstrap5, TailWind, PHP, Wordpress,
+                  Laravel , Vue.js, Webpack, MYSQL, jQuery
+                </p>
               </li>
+
             </ul>
 
             <hr>
@@ -88,8 +93,16 @@
             <ul>
               <li>
                 <p>
+                  <strong>COURSES • 2022 • RS.SCHOOL</strong>
+                </p>
+                <p>
+                  JS/Front-end developer
+                </p>
+              </li>
+              <li>
+                <p>
                   <strong>COURSES • 2021 • BELHARD ACADEMY</strong>
-                  </p>
+                </p>
                 <p>
                   Modern front-end with Vue.js
                 </p>
@@ -107,9 +120,10 @@
                   <strong>COURSES • 2017 • MYFREEDOM</strong>
                 </p>
                 <p>
-                  Front-end developer.  HTML, CSS, JavaScript, SASS,GULP
+                  Front-end developer. HTML, CSS, JavaScript, SASS,GULP
                 </p>
               </li>
+
             </ul>
 
             <hr>
@@ -158,7 +172,7 @@ export default {
           ]
         },
         {
-          title: 'Finished works', visibility: false, data: [
+          title: 'Portfolio links', visibility: false, data: [
             {
               link: 'https://komaroff.biz/front-end/anstel/',
               linkText: 'Internet shop ',
@@ -424,71 +438,71 @@ export default {
 
           ]
         },
-        {
-          title: 'JavaScript', visibility: false, data: [
-            {
-              link: 'https://komaroff.biz/front-end/0-webarray/dist/',
-              linkText: 'Admin panel   ',
-              source: '',
-              description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
-            },
-            {
-              link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
-              linkText: 'ElementPosition + scroll direction + hash . JavaScript',
-              source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
-              description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
-            },
-            {
-              link: 'https://komarofff.github.io/JavaScript/game-1/',
-              linkText: 'Game. Try to catch more squares :)',
-              source: 'https://github.com/komarofff/JavaScript/tree/main/game-1',
-              description: 'JavaScript game'
-            },
-            {
-              link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
-              linkText: 'Carousel1 ',
-              source: 'https://github.com/komarofff/page1',
-              description: 'JS left-right + drag&drop'
-            },
-            {
-              link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
-              linkText: 'Carousel2 ',
-              source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
-              description: 'JS left-right + drag&drop in a circle'
-            },
-            {
-              link: 'https://komarofff.github.io/karusel/slider-without-stop.html',
-              linkText: 'Slider',
-              source: 'https://github.com/komarofff/karusel/blob/main/slider-without-stop.html',
-              description: 'slider-without-stop( left-to-right)'
-            },
-            {
-              link: 'https://komarofff.github.io/karusel/svg-animation.html',
-              linkText: 'SVG animation',
-              source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
-              description: 'svg-animation ( fill circle)'
-            },
-            {
-              link: 'https://komarofff.github.io/marafon-JS/slider-cars/index.html',
-              linkText: 'Slider-flex',
-              source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-cars',
-              description: 'Slider based on flex grow and flex shrink +JS'
-            },
-            {
-              link: 'https://komarofff.github.io/marafon-JS/slider-up-down/',
-              linkText: 'Slider up-to-down',
-              source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-up-down',
-              description: 'Slider up-down . 1 page, screen size'
-            },
-            {
-              link: 'https://komarofff.github.io/marafon-JS/drag-and-drop/index.html',
-              linkText: 'drag&drop',
-              source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
-              description: 'drag&drop'
-            },
-
-          ]
-        }
+        // {
+        //   title: 'JavaScript', visibility: false, data: [
+        //     {
+        //       link: 'https://komaroff.biz/front-end/0-webarray/dist/',
+        //       linkText: 'Admin panel   ',
+        //       source: '',
+        //       description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
+        //       linkText: 'ElementPosition + scroll direction + hash . JavaScript',
+        //       source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
+        //       description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/JavaScript/game-1/',
+        //       linkText: 'Game. Try to catch more squares :)',
+        //       source: 'https://github.com/komarofff/JavaScript/tree/main/game-1',
+        //       description: 'JavaScript game'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
+        //       linkText: 'Carousel1 ',
+        //       source: 'https://github.com/komarofff/page1',
+        //       description: 'JS left-right + drag&drop'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
+        //       linkText: 'Carousel2 ',
+        //       source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
+        //       description: 'JS left-right + drag&drop in a circle'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/karusel/slider-without-stop.html',
+        //       linkText: 'Slider',
+        //       source: 'https://github.com/komarofff/karusel/blob/main/slider-without-stop.html',
+        //       description: 'slider-without-stop( left-to-right)'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/karusel/svg-animation.html',
+        //       linkText: 'SVG animation',
+        //       source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
+        //       description: 'svg-animation ( fill circle)'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/marafon-JS/slider-cars/index.html',
+        //       linkText: 'Slider-flex',
+        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-cars',
+        //       description: 'Slider based on flex grow and flex shrink +JS'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/marafon-JS/slider-up-down/',
+        //       linkText: 'Slider up-to-down',
+        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-up-down',
+        //       description: 'Slider up-down . 1 page, screen size'
+        //     },
+        //     {
+        //       link: 'https://komarofff.github.io/marafon-JS/drag-and-drop/index.html',
+        //       linkText: 'drag&drop',
+        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
+        //       description: 'drag&drop'
+        //     },
+        //
+        //   ]
+        // }
       ]
     }
   },
@@ -521,13 +535,15 @@ body {
 
 }
 
-.grid-4{
+.grid-4 {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-ul{
-  padding-left:20px;
+
+ul {
+  padding-left: 20px;
 }
+
 .flex-row {
   display: flex;
   justify-content: flex-start;
@@ -544,6 +560,10 @@ ul{
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
 }
 
 ul.flex-row {
@@ -596,7 +616,8 @@ ol {
 .scroll {
   padding: 12px;
   overflow-y: auto;
-  height: 70vh;
+  /*//height: 70vh;*/
+  height: 84%;
 }
 
 .scroll::-webkit-scrollbar {
@@ -653,10 +674,13 @@ button:hover {
   color: #454a56;
   border-right: 1px solid #454a56;
 }
-.active{
+
+.active {
   background: #fff;
   color: #454a56;
+  border-right: 1px solid #454a56;
 }
+
 @media (max-width: 850px) {
   .flex {
     flex-wrap: wrap;
@@ -667,25 +691,37 @@ button:hover {
     max-width: 98vw;
   }
 }
-@media(max-width:768px){
-  .grid-4{
-    width:100%;
+
+@media (max-width: 768px) {
+  .grid-4 {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
-  button{
+
+  button {
     font-size: 18px;
     border: 1px solid #454a56;
   }
+
+  .card {
+    width: 92vw;
+    padding: 10px;
+  }
+
+  .scroll {
+    padding: 5px;
+  }
 }
-@media (max-width: 400px) {
-  .grid-4{
+
+@media (max-width: 450px) {
+  .grid-4 {
     grid-template-columns: 1fr;
   }
 
   .card {
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
   }
 }
 
