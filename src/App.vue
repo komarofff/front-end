@@ -174,6 +174,12 @@ export default {
         {
           title: 'Portfolio links', visibility: false, data: [
             {
+              link: 'https://komarofff.github.io/rs-school/online-zoo/',
+              linkText: 'Landing page. Task from rs.school',
+              source: 'https://github.com/komarofff/rs-school/tree/main/online-zoo',
+              description: 'SCSS, JavaScript, HTML5'
+            },
+            {
               link: 'https://komarofff.github.io/bootstrap-admin-panel/',
               linkText: 'Admin panel ',
               source: '',
@@ -443,71 +449,77 @@ export default {
 
           ]
         },
-        // {
-        //   title: 'JavaScript', visibility: false, data: [
-        //     {
-        //       link: 'https://komaroff.biz/front-end/0-webarray/dist/',
-        //       linkText: 'Admin panel   ',
-        //       source: '',
-        //       description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
-        //       linkText: 'ElementPosition + scroll direction + hash . JavaScript',
-        //       source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
-        //       description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/JavaScript/game-1/',
-        //       linkText: 'Game. Try to catch more squares :)',
-        //       source: 'https://github.com/komarofff/JavaScript/tree/main/game-1',
-        //       description: 'JavaScript game'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
-        //       linkText: 'Carousel1 ',
-        //       source: 'https://github.com/komarofff/page1',
-        //       description: 'JS left-right + drag&drop'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
-        //       linkText: 'Carousel2 ',
-        //       source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
-        //       description: 'JS left-right + drag&drop in a circle'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/slider-without-stop.html',
-        //       linkText: 'Slider',
-        //       source: 'https://github.com/komarofff/karusel/blob/main/slider-without-stop.html',
-        //       description: 'slider-without-stop( left-to-right)'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/karusel/svg-animation.html',
-        //       linkText: 'SVG animation',
-        //       source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
-        //       description: 'svg-animation ( fill circle)'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/marafon-JS/slider-cars/index.html',
-        //       linkText: 'Slider-flex',
-        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-cars',
-        //       description: 'Slider based on flex grow and flex shrink +JS'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/marafon-JS/slider-up-down/',
-        //       linkText: 'Slider up-to-down',
-        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-up-down',
-        //       description: 'Slider up-down . 1 page, screen size'
-        //     },
-        //     {
-        //       link: 'https://komarofff.github.io/marafon-JS/drag-and-drop/index.html',
-        //       linkText: 'drag&drop',
-        //       source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
-        //       description: 'drag&drop'
-        //     },
-        //
-        //   ]
-        // }
+        {
+          title: 'JavaScript', visibility: false, data: [
+            {
+              link: 'https://komarofff.github.io/rs-school/RSS-Gem-Puzzle/',
+              linkText: 'The game Gem Puzzle. Task from rs.school ',
+              source: 'https://github.com/komarofff/rs-school/tree/main/RSS-Gem-Puzzle',
+              description: 'JavaScript'
+            },
+            {
+              link: 'https://komaroff.biz/front-end/0-webarray/dist/',
+              linkText: 'Admin panel   ',
+              source: '',
+              description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
+            },
+            // {
+            //   link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
+            //   linkText: 'ElementPosition + scroll direction + hash . JavaScript',
+            //   source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
+            //   description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
+            // },
+            {
+              link: 'https://komarofff.github.io/JavaScript/game-1/',
+              linkText: 'Game. Try to catch more squares :)',
+              source: 'https://github.com/komarofff/JavaScript/tree/main/game-1',
+              description: 'JavaScript game'
+            },
+            // {
+            //   link: 'https://komarofff.github.io/karusel/karusel-levo-pravo.html',
+            //   linkText: 'Carousel1 ',
+            //   source: 'https://github.com/komarofff/page1',
+            //   description: 'JS left-right + drag&drop'
+            // },
+            // {
+            //   link: 'https://komarofff.github.io/karusel/karusel-po-krugu.html',
+            //   linkText: 'Carousel2 ',
+            //   source: 'https://github.com/komarofff/karusel/blob/main/karusel-po-krugu.html',
+            //   description: 'JS left-right + drag&drop in a circle'
+            // },
+            // {
+            //   link: 'https://komarofff.github.io/karusel/slider-without-stop.html',
+            //   linkText: 'Slider',
+            //   source: 'https://github.com/komarofff/karusel/blob/main/slider-without-stop.html',
+            //   description: 'slider-without-stop( left-to-right)'
+            // },
+            {
+              link: 'https://komarofff.github.io/karusel/svg-animation.html',
+              linkText: 'SVG animation',
+              source: 'https://github.com/komarofff/karusel/blob/main/svg-animation.html',
+              description: 'svg-animation ( fill circle)'
+            },
+            {
+              link: 'https://komarofff.github.io/marafon-JS/slider-cars/index.html',
+              linkText: 'Slider-flex',
+              source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-cars',
+              description: 'Slider based on flex grow and flex shrink +JS'
+            },
+            {
+              link: 'https://komarofff.github.io/marafon-JS/slider-up-down/',
+              linkText: 'Slider up-to-down',
+              source: 'https://github.com/komarofff/marafon-JS/tree/main/slider-up-down',
+              description: 'Slider up-down . 1 page, screen size'
+            },
+            {
+              link: 'https://komarofff.github.io/marafon-JS/drag-and-drop/index.html',
+              linkText: 'drag&drop',
+              source: 'https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop',
+              description: 'drag&drop'
+            },
+
+          ]
+        }
       ]
     }
   },
@@ -701,7 +713,7 @@ button:hover {
   .grid-4 {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
 
