@@ -38,17 +38,19 @@
             <h3 class="mb-0">SKILLS</h3>
             <ul class="flex-row">
               <li>HTML5</li>
+              <li>JavaScript</li>
               <li>CSS3</li>
               <li>Bootstrap</li>
               <li>TailWind</li>
               <li>SCSS</li>
+              <li>WEBPACK</li>
               <li>GULP</li>
-              <li>JavaScript</li>
               <li>PHP</li>
               <li>MYSQL</li>
               <li>Laravel</li>
               <li>Wordpress</li>
               <li>Vue.js</li>
+              <li>NodeJS</li>
               <li>Git</li>
               <li>Figma</li>
               <li>Photoshop</li>
@@ -452,6 +454,11 @@ export default {
         {
           title: 'JavaScript', visibility: false, data: [
             {
+              link: 'https://komarofff.github.io/rs-school/song-bird/dist/index.html',
+              linkText: 'Quiz SongBirds. Task from rs.school ',
+              source: 'https://github.com/komarofff/rs-school/tree/main/song-bird',
+              description: 'JavaScript, TailWind, Webpack'
+            }, {
               link: 'https://komarofff.github.io/rs-school/RSS-Gem-Puzzle/',
               linkText: 'The game Gem Puzzle. Task from rs.school ',
               source: 'https://github.com/komarofff/rs-school/tree/main/RSS-Gem-Puzzle',
