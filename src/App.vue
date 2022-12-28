@@ -176,6 +176,12 @@ export default {
         {
           title: 'Portfolio links', visibility: false, data: [
             {
+              link: 'https://komarofff-ksenchik-online-store.netlify.app/',
+              linkText: 'Online store.',
+              source: '#will be later',
+              description: 'Vue.js, vue router, vuex. SPA. Online store with filter and cart'
+            },
+            {
               link: 'https://komarofff.github.io/rs-school/online-zoo/',
               linkText: 'Landing page. Task from rs.school',
               source: 'https://github.com/komarofff/rs-school/tree/main/online-zoo',
@@ -406,6 +412,12 @@ export default {
         },
         {
           title: 'Vue.js', visibility: false, data: [
+            {
+              link: 'https://komarofff-ksenchik-online-store.netlify.app/',
+              linkText: 'Online store.',
+              source: '#will be later',
+              description: 'Vue.js, vue router, vuex. SPA. Online store with filter and cart'
+            },
 
             {
               link: 'https://komarofff.github.io/Mars-lightgallery/',
