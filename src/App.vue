@@ -176,14 +176,14 @@ export default {
         {
           title: 'Portfolio links', visibility: false, data: [
             {
-              link: 'https://komarofff-ksenchik-online-store.netlify.app/',
+              link: 'https://komaroff.biz/front-end/online-store/dist/',
               linkText: 'Online store.',
-              source: '#will be later',
-              description: 'Vue.js, vue router, vuex. SPA. Online store with filter and cart'
+              source: '#will-be-later',
+              description: 'Vue.js, vue router, vuex, TypeScript. SPA application. Online store with filter and cart'
             },
             {
               link: 'https://komarofff.github.io/rs-school/online-zoo/',
-              linkText: 'Landing page. Task from rs.school',
+              linkText: 'Landing page.',
               source: 'https://github.com/komarofff/rs-school/tree/main/online-zoo',
               description: 'SCSS, JavaScript, HTML5'
             },
@@ -413,10 +413,10 @@ export default {
         {
           title: 'Vue.js', visibility: false, data: [
             {
-              link: 'https://komarofff-ksenchik-online-store.netlify.app/',
+              link: 'https://komaroff.biz/front-end/online-store/dist/',
               linkText: 'Online store.',
-              source: '#will be later',
-              description: 'Vue.js, vue router, vuex. SPA. Online store with filter and cart'
+              source: '#will-be-later',
+              description: 'Vue.js, vue router, vuex, TypeScript. SPA application. Online store with filter and cart'
             },
 
             {
