@@ -482,12 +482,12 @@ export default {
               source: '',
               description: 'Bootstrap + JavaScript + Fetch + HTML + SCSS + Drag&Drop + LightGallery'
             },
-            // {
-            //   link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
-            //   linkText: 'ElementPosition + scroll direction + hash . JavaScript',
-            //   source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
-            //   description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
-            // },
+            {
+              link: 'https://komarofff.github.io/JavaScript/ElementPosition.html',
+              linkText: 'ElementPosition + scroll direction + hash . JavaScript',
+              source: 'https://github.com/komarofff/JavaScript/blob/main/ElementPosition.html',
+              description: '1) Determining the position of the element in the browser window. Beginning of actions on the element when displayed in the visibility zone. 2) Checking the address bar for a hash and after the transition an additional scroll (up or down). 3) Determining the direction of scrolling'
+            },
             {
               link: 'https://komarofff.github.io/JavaScript/game-1/',
               linkText: 'Game. Try to catch more squares :)',
