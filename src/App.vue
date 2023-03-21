@@ -30,7 +30,7 @@
             </div>
             <!--            <h3 class="mb-0">About me</h3>-->
             <hr>
-            <p>I'm an enthusiastic and detail-oriented developer seeking a position in a
+            <p>I'm an enthusiastic and detail-oriented developer from Gdansk (Poland) seeking a position in a
               company to use my skills in coding, troubleshooting complex problems, and assisting in the timely
               completion of projects.</p>
             <p>My hobby become my work :)</p>
@@ -60,7 +60,7 @@
             <h3 class="mb-0">CONTACTS</h3>
             <ul>
               <li><strong>Email:</strong> <a href="mailto:admin@komaroff.biz">admin@komaroff.biz</a></li>
-              <li><strong>Tel.Viber:</strong> <a href="tel:+375(29) 709-60-78"> +375(29) 709-60-78</a></li>
+              <li><strong>Tel.Viber:</strong> <a href="tel:+48 792 184 092"> +48 792 184 092</a></li>
               <li><strong>Telegram:</strong> <a target="_blank"
                                                 href="https://t.me/komarov_anatoliy">@komarov_anatoliy</a></li>
               <li><strong>Linkedin:</strong><a target="_blank" href="https://www.linkedin.com/in/anatoliy-komarov/">
