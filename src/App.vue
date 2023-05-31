@@ -176,7 +176,12 @@ export default {
         {
           title: 'Portfolio links', visibility: false, data: [
             {
-              link: 'http://immunohealth.com/',
+              link: 'https://www.b24green.com/pl/',
+              linkText: 'Online store ',
+              source: '#will-be-later',
+              description: 'JavaScript, TailWind , NodeJS, MongoDB'
+            },{
+              link: 'https://immunohealth.com/',
               linkText: 'Online store ',
               source: '#will-be-later',
               description: 'Wordpress, Woocommerce, ACF, Contact form 7, SCSS, PHP, AJAX'
