@@ -57,23 +57,13 @@
             <hr>
             <h3 class="mb-0">SKILLS</h3>
             <ul class="flex-row">
-              <li>HTML5</li>
-              <li>JavaScript</li>
-              <li>CSS3</li>
-              <li>Bootstrap</li>
-              <li>TailWind</li>
-              <li>SCSS</li>
-              <li>WEBPACK</li>
-              <li>GULP</li>
-              <li>PHP</li>
-              <li>MYSQL</li>
-              <li>Laravel</li>
-              <li>Wordpress</li>
-              <li>Vue.js</li>
-              <li>NodeJS</li>
-              <li>Git</li>
-              <li>Figma</li>
-              <li>Photoshop</li>
+              <li>Programming Languages: HTML5, JavaScript, PHP</li>
+              <li>Frontend: CSS3, Bootstrap, TailWind, SCSS, Vue.js</li>
+              <li>Backend: Node.js, Laravel, WordPress</li>
+              <li>Databases: MySQL</li>
+              <li>Version Control Systems: Git</li>
+              <li>Design Tools: Figma, Photoshop</li>
+              <li>Build Tools: Webpack, Gulp</li>
             </ul>
             <hr>
 
