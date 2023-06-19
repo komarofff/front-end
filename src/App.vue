@@ -58,12 +58,12 @@
             <h3 class="mb-0">SKILLS</h3>
             <ul class="flex-row">
               <li>Programming Languages: HTML5, JavaScript, PHP</li>
-              <li>Frontend: CSS3, Bootstrap, TailWind, SCSS, Vue.js</li>
-              <li>Backend: Node.js, Laravel, WordPress</li>
-              <li>Databases: MySQL</li>
-              <li>Version Control Systems: Git</li>
-              <li>Design Tools: Figma, Photoshop</li>
-              <li>Build Tools: Webpack, Gulp</li>
+              <br><li>Frontend: CSS3, Bootstrap, TailWind, SCSS, Vue.js</li>
+              <br><li>Backend: Node.js, Laravel, WordPress</li>
+              <br><li>Databases: MySQL</li>
+              <br><li>Version Control Systems: Git</li>
+              <br><li>Design Tools: Figma, Photoshop</li>
+              <br><li>Build Tools: Webpack, Gulp</li>
             </ul>
             <hr>
 
