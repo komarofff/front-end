@@ -30,10 +30,30 @@
             </div>
             <!--            <h3 class="mb-0">About me</h3>-->
             <hr>
-            <p>I'm an enthusiastic and detail-oriented developer from Gdansk (Poland) seeking a position in a
-              company to use my skills in coding, troubleshooting complex problems, and assisting in the timely
-              completion of projects.</p>
-            <p>My hobby become my work :)</p>
+            <p>
+              I'm a passionate and detail-oriented developer from Gdansk, Poland, actively seeking a position in a
+              company where I can apply my coding skills, troubleshoot complex problems, and contribute to the timely
+              completion of projects.
+            </p>
+            <p>
+              What started as a hobby has now become my profession, and I am dedicated to continuously honing my
+              development skills. With a deep understanding and experience in various programming languages and
+              technologies, I'm always ready to take on new challenges and make meaningful contributions to project
+              success.
+            </p>
+            <p>
+              I have a keen eye for detail and strive for high-quality code to ensure efficient and reliable software
+              performance. My analytical approach enables me to tackle intricate problems and find elegant solutions.
+            </p>
+            <p>
+              I'm open to new opportunities and continuously stay up-to-date with the latest technologies and
+              development practices. I'm seeking a team where I can contribute my skills and work as part of a creative
+              and highly skilled collective.
+            </p>
+            <p>
+              If you're looking for an enthusiast who can be an invaluable asset to your team and help drive success,
+              I'm ready to make a meaningful impact and grow alongside your company.
+            </p>
             <hr>
             <h3 class="mb-0">SKILLS</h3>
             <ul class="flex-row">
@@ -180,7 +200,7 @@ export default {
               linkText: 'Online store ',
               source: '#will-be-later',
               description: 'JavaScript, TailWind , NodeJS, MongoDB'
-            },{
+            }, {
               link: 'https://immunohealth.com/',
               linkText: 'Online store ',
               source: '#will-be-later',
@@ -203,7 +223,7 @@ export default {
               linkText: 'Admin panel ',
               source: '',
               description: 'Bootstrap, JavaScript'
-            },{
+            }, {
               link: 'https://komaroff.biz/front-end/anstel/',
               linkText: 'Internet shop ',
               source: '',
