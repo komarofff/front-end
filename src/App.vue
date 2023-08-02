@@ -31,7 +31,7 @@
             <!--            <h3 class="mb-0">About me</h3>-->
             <hr>
             <p>
-              I'm a passionate and detail-oriented developer from Gdansk, Poland, actively seeking a position in a
+              I'm a passionate and detail-oriented developer  actively seeking a position in a
               company where I can apply my coding skills, troubleshoot complex problems, and contribute to the timely
               completion of projects.
             </p>
@@ -57,20 +57,21 @@
             <hr>
             <h3 class="mb-0">SKILLS</h3>
             <ul>
-              <li>Programming Languages: HTML5, JavaScript, PHP</li>
-              <li>Frontend: CSS3, Bootstrap, TailWind, SCSS, Vue.js</li>
-              <li>Backend: Node.js, Laravel, WordPress</li>
-              <li>Databases: MySQL</li>
-              <li>Version Control Systems: Git</li>
-              <li>Design Tools: Figma, Photoshop</li>
-              <li>Build Tools: Webpack, Gulp</li>
+              <li><strong>Programming Languages:</strong> HTML5, JavaScript, PHP</li>
+              <li><strong>Frontend:</strong> CSS3, Bootstrap, TailWind, SCSS, Vue.js</li>
+              <li><strong>Backend:</strong> Node.js, Laravel, WordPress</li>
+              <li><strong>Databases:</strong> MySQL</li>
+              <li><strong>Version Control Systems:</strong> Git</li>
+              <li><strong>Design Tools:</strong> Figma, Photoshop</li>
+              <li><strong>Build Tools:</strong> Webpack, Gulp</li>
             </ul>
             <hr>
 
             <h3 class="mb-0">CONTACTS</h3>
             <ul>
               <li><strong>Email:</strong> <a href="mailto:admin@komaroff.biz">admin@komaroff.biz</a></li>
-              <li><strong>Tel.Viber:</strong> <a href="tel:+48 792 184 092"> +48 792 184 092</a></li>
+              <li><strong>Tel.:</strong> <a href="tel:+48 792 184 092"> +48 792 184 092</a></li>
+              <li><strong>Viber:</strong> <a href="tel:+375 29 709-60-78"> +375 29 709-60-78</a></li>
               <li><strong>Telegram:</strong> <a target="_blank"
                                                 href="https://t.me/komarov_anatoliy">@komarov_anatoliy</a></li>
               <li><strong>Linkedin:</strong><a target="_blank" href="https://www.linkedin.com/in/anatoliy-komarov/">
@@ -105,7 +106,7 @@
             <ul>
               <li>
                 <p>
-                  <strong>COURSES • 2022 • RS.SCHOOL</strong>
+                  <strong>COURSES • 2022 • <a target="_blank" href="https://app.rs.school/certificate/07pj38mk">RS.SCHOOL</a> </strong>
                 </p>
                 <p>
                   JS/Front-end developer
@@ -113,7 +114,7 @@
               </li>
               <li>
                 <p>
-                  <strong>COURSES • 2021 • BELHARD ACADEMY</strong>
+                  <strong>COURSES • 2021 • <a target="_blank" href="https://komaroff.biz/RESUME/certificate/Front-end-belhard.jpg">BELHARD ACADEMY</a></strong>
                 </p>
                 <p>
                   Modern front-end with Vue.js
@@ -124,7 +125,7 @@
                   <strong>COURSES • 2017 • MYFREEDOM</strong>
                 </p>
                 <p>
-                  Full-stack developer. PHP, MYSQL, Laravel
+                  <a target="_blank" href="https://komaroff.biz/images/Anatoliy-php.jpg">Full-stack developer. PHP, MYSQL, Laravel</a>
                 </p>
               </li>
               <li>
@@ -132,7 +133,7 @@
                   <strong>COURSES • 2017 • MYFREEDOM</strong>
                 </p>
                 <p>
-                  Front-end developer. HTML, CSS, JavaScript, SASS,GULP
+                  <a target="_blank" href="https://komaroff.biz/sistema-upravlenija/assets/images/Anatoliy_sertifikat.jpg">Front-end developer. HTML, CSS, JavaScript, SASS,GULP</a>
                 </p>
               </li>
 
