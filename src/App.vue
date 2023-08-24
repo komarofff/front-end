@@ -69,6 +69,7 @@
 
             <h3 class="mb-0">CONTACTS</h3>
             <ul>
+              <li><strong>Web site:</strong> <a target="_blank" href="https://dev-web.pl">dev-web.pl</a></li>
               <li><strong>Email:</strong> <a href="mailto:admin@komaroff.biz">admin@komaroff.biz</a></li>
               <li><strong>Tel.:</strong> <a href="tel:+48 792 184 092"> +48 792 184 092</a></li>
               <li><strong>Viber:</strong> <a href="tel:+375 29 709-60-78"> +375 29 709-60-78</a></li>
@@ -186,6 +187,12 @@ export default {
         },
         {
           title: 'Portfolio links', visibility: false, data: [
+            {
+              link: 'https://dev-web.pl/',
+              linkText: 'Wordpress site  ',
+              source: '#will-be-later',
+              description: 'Wordpress,  ACF, Contact form 7, SCSS, PHP, AJAX'
+            },
             {
               link: 'https://www.b24green.com/pl/',
               linkText: 'Online store ',
