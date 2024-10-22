@@ -188,6 +188,18 @@ export default {
         {
           title: 'Portfolio links', visibility: false, data: [
             {
+              link: 'https://hkdevotion.com/',
+              linkText: 'Wordpress site  ',
+              source: '#will-be-later',
+              description: 'Wordpress,  ACF, Contact form 7, SCSS, PHP, AJAX'
+            },
+            {
+              link: 'https://skillactor.com/',
+              linkText:' Laravel && Vue . Education platform  ',
+              source: '#will-be-later',
+              description: 'Laravel, Vue.js, Redis, Elastic search'
+            },
+            {
               link: 'https://dev-web.pl/',
               linkText: 'Wordpress site  ',
               source: '#will-be-later',
