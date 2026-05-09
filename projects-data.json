@@ -1,61 +1,61 @@
 {
   "portfolio": [
     {
-      "link": "[https://skillactor.com/](https://skillactor.com/)",
+      "link": "https://skillactor.com/",
       "linkText": "Education Platform",
       "source": "",
       "description": "Laravel, Vue.js, Redis, Elasticsearch"
     },
     {
-      "link": "[https://immunohealth.com/](https://immunohealth.com/)",
+      "link": "https://immunohealth.com/",
       "linkText": "WooCommerce Online Store",
       "source": "",
       "description": "WordPress, WooCommerce, ACF, PHP, SCSS, AJAX"
     },
     {
-      "link": "[https://hkdevotion.com/](https://hkdevotion.com/)",
+      "link": "https://hkdevotion.com/",
       "linkText": "Corporate WordPress Website",
       "source": "",
       "description": "WordPress, ACF, Contact Form 7, PHP, SCSS, AJAX"
     },
     {
-      "link": "[https://paragonrea.com](https://paragonrea.com)",
+      "link": "https://paragonrea.com",
       "linkText": "Real Estate Platform",
-      "source": "[https://github.com/komarofff/paragon-wordpress5](https://github.com/komarofff/paragon-wordpress5)",
+      "source": "",
       "description": "WordPress, Elementor, Bootstrap, PHP, AJAX, Google Maps API"
     },
     {
-      "link": "[https://www.blackshiprealty.com/](https://www.blackshiprealty.com/)",
+      "link": "https://www.blackshiprealty.com/",
       "linkText": "Real Estate Company Website",
-      "source": "[https://github.com/komarofff/blackship](https://github.com/komarofff/blackship)",
+      "source": "",
       "description": "WordPress, Elementor, Bootstrap, JavaScript, Google Maps API"
     },
     {
-      "link": "[https://www.b24green.com/pl/](https://www.b24green.com/pl/)",
+      "link": "https://www.b24green.com/pl/",
       "linkText": "E-commerce Platform",
       "source": "",
       "description": "JavaScript, Tailwind CSS, Node.js, MongoDB"
     },
     {
-      "link": "[https://vasterra.com/](https://vasterra.com/)",
+      "link": "https://vasterra.com/",
       "linkText": "Corporate Website",
       "source": "",
       "description": "Laravel, JavaScript, WordPress API, Slick Slider"
     },
     {
-      "link": "[https://komaroff.biz/front-end/online-store/dist/](https://komaroff.biz/front-end/online-store/dist/)",
+      "link": "https://komaroff.biz/front-end/online-store/dist/",
       "linkText": "SPA Online Store",
       "source": "",
       "description": "Vue.js, Vue Router, Vuex, TypeScript, SPA"
     },
     {
-      "link": "[https://komarofff.github.io/Calendar/Calendar_week-new.html](https://komarofff.github.io/Calendar/Calendar_week-new.html)",
+      "link": "https://komarofff.github.io/Calendar/Calendar_week-new.html",
       "linkText": "Calendar Admin Panel",
-      "source": "[https://github.com/komarofff/Calendar](https://github.com/komarofff/Calendar)",
+      "source": "",
       "description": "Tailwind CSS, JavaScript, Drag & Drop"
     },
     {
-      "link": "[https://dev-web.pl/](https://dev-web.pl/)",
+      "link": "https://dev-web.pl/",
       "linkText": "Business WordPress Website",
       "source": "",
       "description": "WordPress, ACF, Contact Form 7, PHP, SCSS, AJAX"
@@ -63,65 +63,65 @@
   ],
   "vue": [
     {
-      "link": "[https://komaroff.biz/front-end/online-store/dist/](https://komaroff.biz/front-end/online-store/dist/)",
+      "link": "https://komaroff.biz/front-end/online-store/dist/",
       "linkText": "SPA Online Store",
       "source": "",
       "description": "Vue.js, Vue Router, Vuex, TypeScript"
     },
     {
-      "link": "[https://komarofff.github.io/Mars-lightgallery/](https://komarofff.github.io/Mars-lightgallery/)",
+      "link": "https://komarofff.github.io/Mars-lightgallery/",
       "linkText": "NASA Mars Photos Viewer",
-      "source": "[https://github.com/komarofff/Mars-lightgallery/](https://github.com/komarofff/Mars-lightgallery/)",
+      "source": "",
       "description": "Vue.js, Axios, NASA API"
     },
     {
-      "link": "[https://komaroff.biz/vue/babka/](https://komaroff.biz/vue/babka/)",
+      "link": "https://komaroff.biz/vue/babka/",
       "linkText": "Jam Production Manager",
-      "source": "[https://github.com/komarofff/Vue.js/tree/main/babka](https://github.com/komarofff/Vue.js/tree/main/babka)",
+      "source": "",
       "description": "Vue.js, Vuex, Vue Router"
     },
     {
-      "link": "[https://komarofff.github.io/test3/](https://komarofff.github.io/test3/)",
+      "link": "https://komarofff.github.io/test3/",
       "linkText": "Workers List with Filters",
-      "source": "[https://github.com/komarofff/test3](https://github.com/komarofff/test3)",
+      "source": "",
       "description": "Vue.js"
     },
     {
-      "link": "[https://komarofff.github.io/currency-test/](https://komarofff.github.io/currency-test/)",
+      "link": "https://komarofff.github.io/currency-test/",
       "linkText": "Currency Rates App",
-      "source": "[https://github.com/komarofff/currency-test](https://github.com/komarofff/currency-test)",
+      "source": "",
       "description": "Vue.js, REST API"
     }
   ],
   "javascript": [
     {
-      "link": "[https://komarofff.github.io/rs-school/song-bird/dist/index.html](https://komarofff.github.io/rs-school/song-bird/dist/index.html)",
+      "link": "https://komarofff.github.io/rs-school/song-bird/dist/index.html",
       "linkText": "SongBird Quiz App",
-      "source": "[https://github.com/komarofff/rs-school/tree/main/song-bird](https://github.com/komarofff/rs-school/tree/main/song-bird)",
+      "source": "",
       "description": "JavaScript, Tailwind CSS, Webpack"
     },
     {
-      "link": "[https://komarofff.github.io/rs-school/RSS-Gem-Puzzle/](https://komarofff.github.io/rs-school/RSS-Gem-Puzzle/)",
+      "link": "https://komarofff.github.io/rs-school/RSS-Gem-Puzzle/",
       "linkText": "Gem Puzzle Game",
-      "source": "[https://github.com/komarofff/rs-school/tree/main/RSS-Gem-Puzzle](https://github.com/komarofff/rs-school/tree/main/RSS-Gem-Puzzle)",
+      "source": "",
       "description": "JavaScript"
     },
     {
-      "link": "[https://komaroff.biz/front-end/0-webarray/dist/](https://komaroff.biz/front-end/0-webarray/dist/)",
+      "link": "https://komaroff.biz/front-end/0-webarray/dist/",
       "linkText": "Admin Dashboard",
       "source": "",
       "description": "Bootstrap, JavaScript, Fetch API, Drag & Drop, LightGallery"
     },
     {
-      "link": "[https://komarofff.github.io/JavaScript/game-1/](https://komarofff.github.io/JavaScript/game-1/)",
+      "link": "https://komarofff.github.io/JavaScript/game-1/",
       "linkText": "Mini JavaScript Game",
-      "source": "[https://github.com/komarofff/JavaScript/tree/main/game-1](https://github.com/komarofff/JavaScript/tree/main/game-1)",
+      "source": "",
       "description": "Vanilla JavaScript Game"
     },
     {
-      "link": "[https://komarofff.github.io/marafon-JS/drag-and-drop/index.html](https://komarofff.github.io/marafon-JS/drag-and-drop/index.html)",
+      "link": "https://komarofff.github.io/marafon-JS/drag-and-drop/index.html",
       "linkText": "Drag & Drop Demo",
-      "source": "[https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop](https://github.com/komarofff/marafon-JS/tree/main/drag-and-drop)",
+      "source": "",
       "description": "JavaScript Drag & Drop"
     }
   ]
