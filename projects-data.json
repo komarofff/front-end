@@ -59,6 +59,12 @@
       "linkText": "Business WordPress Website",
       "source": "",
       "description": "WordPress, ACF, Contact Form 7, PHP, SCSS, AJAX"
+    },
+    {
+      "link": "https://beliit.by/",
+      "linkText": "E-Commerce project",
+      "source": "",
+      "description": "Wordpress, Woocommerce, ACF, Contact Form 7, PHP, SCSS, AJAX, JavaScript, PHP"
     }
   ],
   "vue": [
