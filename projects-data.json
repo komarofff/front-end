@@ -65,6 +65,12 @@
       "linkText": "E-Commerce project",
       "source": "",
       "description": "Wordpress, Woocommerce, ACF, Contact Form 7, PHP, SCSS, AJAX, JavaScript, PHP"
+    },
+    {
+      "link": "https://romantiki-circus.by/",
+      "linkText": "Circus Studio Website ",
+      "source": "",
+      "description": " WordPress, ACF, Custom Post Types, PHP, SCSS, AJAX, Contact Form 7, YouTube API"
     }
   ],
   "vue": [
